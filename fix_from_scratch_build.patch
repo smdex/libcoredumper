@@ -39,3 +39,14 @@
 @@ -1,1 +1,1 @@
 -4
 +10
+--- debian/rules        2014-01-18 00:05:09.437205286 -0800
++++ debian/rules        2014-01-18 00:07:11.832697862 -0800
+@@ -92,1 +92,1 @@
+-       dh_install --sourcedir=debian/tmp
++       dh_install
+
+--- debian/control      2014-01-18 00:05:09.437205286 -0800
++++ debian/control      2014-01-18 00:07:11.832697862 -0800
+@@ -10,1 +10,1 @@
+-Depends: libcoredumper1 (= ${Source-Version})
++Depends: libcoredumper1 (= ${source:Version})
